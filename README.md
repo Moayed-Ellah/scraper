@@ -1,2 +1,2 @@
-<p align="center">scraper</p>
+<h1 align="center">scraper</h1>
 <hr>
