@@ -8,8 +8,8 @@
 # the imports needed, soup & requests
 
 ```diff
-! import requests
-! from bs4 import BeautifulSoup
++ import requests
++ from bs4 import BeautifulSoup
 ```
 
 # defining the input variable, take input from end-user and use it as the link input
