@@ -5,26 +5,26 @@
 
 <hr>
 
-# the imports needed, soup & requests
+## the imports needed, soup & requests
 
 ```diff
 + import requests
 + from bs4 import BeautifulSoup
 ```
 
-# defining the input variable, take input from end-user and use it as the link input
+## defining the input variable, take input from end-user and use it as the link input
 
 ```diff
 link = input("input the website link here: ")
 ```
 
-# using request to fetch the link of the website given
+## using request to fetch the link of the website given
 
 ```diff
 page = requests.get(link)
 ```
 
-# the rest is left for soup to handle, you can change the "h1" to the class element you're after, or replace it with the div id instead
+## the rest is left for soup to handle, you can change the "h1" to the class element you're after, or replace it with the div id instead
 
 ```diff
 soup = BeautifulSoup(page.content, "html.parser")
